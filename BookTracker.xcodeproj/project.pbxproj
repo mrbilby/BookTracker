@@ -11,6 +11,8 @@
 		B3A29AE929D5FCCD00B0409F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A29AE829D5FCCD00B0409F /* ContentView.swift */; };
 		B3A29AEB29D5FCCD00B0409F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3A29AEA29D5FCCD00B0409F /* Assets.xcassets */; };
 		B3A29AEE29D5FCCD00B0409F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3A29AED29D5FCCD00B0409F /* Preview Assets.xcassets */; };
+		B3A29AF729D60ECB00B0409F /* AddBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A29AF629D60ECB00B0409F /* AddBook.swift */; };
+		B3A29AF929D88D0000B0409F /* BookDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A29AF829D88D0000B0409F /* BookDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		B3A29AE829D5FCCD00B0409F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B3A29AEA29D5FCCD00B0409F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B3A29AED29D5FCCD00B0409F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B3A29AF629D60ECB00B0409F /* AddBook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBook.swift; sourceTree = "<group>"; };
+		B3A29AF829D88D0000B0409F /* BookDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				B3A29AE629D5FCCD00B0409F /* BookTrackerApp.swift */,
 				B3A29AE829D5FCCD00B0409F /* ContentView.swift */,
+				B3A29AF829D88D0000B0409F /* BookDetail.swift */,
+				B3A29AF629D60ECB00B0409F /* AddBook.swift */,
 				B3A29AEA29D5FCCD00B0409F /* Assets.xcassets */,
 				B3A29AEC29D5FCCD00B0409F /* Preview Content */,
 			);
@@ -137,6 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3A29AF729D60ECB00B0409F /* AddBook.swift in Sources */,
+				B3A29AF929D88D0000B0409F /* BookDetail.swift in Sources */,
 				B3A29AE929D5FCCD00B0409F /* ContentView.swift in Sources */,
 				B3A29AE729D5FCCD00B0409F /* BookTrackerApp.swift in Sources */,
 			);
